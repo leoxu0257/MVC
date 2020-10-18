@@ -17,7 +17,7 @@ export class AddSaleModal extends Component {
     handleSubmit(event) {
         event.preventDefault();
 
-        // alert(event.target.Name.value); //打印出来
+        // alert(event.target.Name.value); //print
         // alert(event.target.Address.value);
 
         fetch('https://localhost:44376/api/Sales', {
